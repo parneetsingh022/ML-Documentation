@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Hello world python code
+## Without a function 
+Here is a python code to display "Hello world" without a function.
+```python
+    print("Hello world")
+```
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## With a function
+Here is the python code to display "Hello world" with a function
+```python
+    def display_hello_world():
+        print("Hello world")
 
-## Commands
+    display_hello_world()
+```
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# creating a custom print function
+```python
+    def custom_print(text):
+        print("result: " + text)
+```
