@@ -32,3 +32,14 @@ ct.fit(X_train)
 X_train_normal = ct.transform(X_train)
 X_test_normal = ct.transform(X_test)
 ```
+
+## Creating Random Samples
+```python
+from sklearn.datasets import make_circles
+
+# Make 1000 examples
+n_samples = 1000
+
+# Create circles
+X,y = make_circles(n_samples, noise=0.03, random_state=42)
+```
